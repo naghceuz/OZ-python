@@ -25,9 +25,10 @@ print "Does the output file exists ? %r " % exists(to_file)
 print "Ready, hit RETURN to continue, CTRL-C to abort."
 raw_input()
 
+# 打开第二个文件
 out_file = open(to_file, 'w')
 
-# 
+# 把文件1的内容存到文件2
 out_file.write(indata)
 
 
